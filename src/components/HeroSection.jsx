@@ -35,7 +35,7 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-center">
           Welcome to Black Wood Hotel
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-center">
+        <p className="mt-4 text-lg md:text-xl text-center px-2">
           Experience luxury and comfort in the heart of Haputale.
         </p>
         <a
