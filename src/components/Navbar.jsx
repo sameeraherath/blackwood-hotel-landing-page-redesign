@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="bg-white">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-8">
-          <div className="hidden md:flex space-x-4 justify-center flex-grow border-b pb-6">
+          <div className="hidden md:flex space-x-4 justify-center flex-grow ">
             <a
               href="#home"
               className="text-green-700 hover:text-green-600  text-lg"
