@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="about-section py-12 h-screen ">
+    <section className="about-section py-12 ">
       <div className="container mx-auto  px-6 sm:px-4">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold bg-gradient-to-t from-green-400 to-green-600 bg-clip-text text-transparent">
