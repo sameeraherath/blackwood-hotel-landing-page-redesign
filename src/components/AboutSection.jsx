@@ -43,7 +43,7 @@ const AboutSection = () => {
             </p>
             <a
               href="#contact"
-              className="mt-3 inline-block px-8 py-3 bg-gradient-to-r from-green-400 to-green-600 text-white rounded-lg hover:from-green-500 hover:to-green-700 transition "
+              className="mt-3 inline-block px-6 py-3 bg-gradient-to-r from-green-400 to-green-600 text-white rounded-lg hover:from-green-500 hover:to-green-700 transition "
             >
               Contact Us
             </a>
