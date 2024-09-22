@@ -40,7 +40,7 @@ const HeroSection = () => {
         </p>
         <a
           href="#book"
-          className="mt-6 inline-block px-6 py-3 bg-green-700 text-white rounded hover:bg-green-600 transition"
+          className="mt-6 inline-block px-6 py-3 bg-gradient-to-r from-green-400 to-green-600 text-white rounded-lg hover:from-green-500 hover:to-green-700 transition"
         >
           Book Now
         </a>
