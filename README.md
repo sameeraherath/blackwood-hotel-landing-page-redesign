@@ -1,8 +1,19 @@
-# React + Vite
+# Black Wood Hotel Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern redesign of the Black Wood Hotel & Bungalow landing page, built with React and Tailwind CSS for a responsive, user-friendly experience.
 
-Currently, two official plugins are available:
+## Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design
+- Hero section with call to action
+- Showcase of rooms and local attractions
+- Image gallery
+
+## Tech:
+
+- React
+- Tailwind CSS
+
+# Screenshot
+
+![Project Screenshot](src/assets/Screenshot/1.png)
