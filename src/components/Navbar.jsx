@@ -1,5 +1,5 @@
-// Navbar.jsx
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,36 +13,37 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-8">
           <div className="hidden md:flex space-x-8 justify-center flex-grow ">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="text-green-700 hover:text-green-600  text-lg"
             >
               Home
-            </a>
-            <a
-              href="#about"
+            </Link>
+            {/* Link to homepage with section hash */}
+            <Link
+              to="/#about"
               className="text-green-700 hover:text-green-600 text-lg"
             >
               About
-            </a>
-            <a
-              href="#rooms"
+            </Link>
+            <Link
+              to="/#rooms"
               className="text-green-700 hover:text-green-600 text-lg"
             >
               Rooms
-            </a>
-            <a
-              href="#gallery"
+            </Link>
+            <Link
+              to="/#gallery"
               className="text-green-700 hover:text-green-600 text-lg"
             >
               Gallery
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact"
               className="text-green-700 hover:text-green-600 text-lg"
             >
               Contact
-            </a>
+            </Link>
           </div>
           <div className="md:hidden">
             <button onClick={toggleMenu} className="focus:outline-none">
@@ -64,40 +65,44 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden">
           <div className="flex flex-col space-y-2  px-4 border-b pb-6">
-            <a
-              href="#home"
+            <Link
+              to="/"
+              onClick={toggleMenu}
               className="block text-green-700 hover:text-green-600"
             >
               Home
-            </a>
-            <a
-              href="#about"
+            </Link>
+            <Link
+              to="/#about"
+              onClick={toggleMenu}
               className="block text-green-700 hover:text-green-600"
             >
               About
-            </a>
-            <a
-              href="#rooms"
+            </Link>
+            <Link
+              to="/#rooms"
+              onClick={toggleMenu}
               className="block text-green-700 hover:text-green-600"
             >
               Rooms
-            </a>
-            <a
-              href="#gallery"
+            </Link>
+            <Link
+              to="/#gallery"
+              onClick={toggleMenu}
               className="block text-green-700 hover:text-green-600"
             >
               Gallery
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact"
+              onClick={toggleMenu}
               className="block text-green-700 hover:text-green-600"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       )}
